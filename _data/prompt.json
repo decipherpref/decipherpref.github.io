@@ -1,0 +1,53 @@
+[
+    {"name": "Atomic Content Unit", "detail": "Few-Shot Prompt to extract ACUs from given {summary}", "role_1": "System", "content_1":"Your task is to extract atomic facts from the INPUT. These are self-contained units of information that are unambiguous and require no further splitting.", "role_2": "User", "content_2":"INPUT:\nRaheem Sterling has not signed new Liverpool contract. Sterling gave an interview last week suggesting he might want to leave. But Brendan Rodgers insists the forward has never expressed desire to go.\n\nOUTPUT:\n{\"1\": \"Raheem Sterling has not signed new Liverpool contract\",\n\"2\": \"Sterling gave an interview last week\",\n\"3\": \"The interview suggests Sterling might want to leave\",\n\"4\": \"Brendan Rodgers insists Sterling has never expressed desire to go\"}\nINPUT:\nFormer Barcelona centre back Carles Puyol retired in May last year. But he could now be in line for a return with New York City or Al-Sadd. Puyol is reported to be training ahead of a comeback from retirement.\n\nOUTPUT:\n{\"1\": \"Carles Puyol retired in May\", \n\"2\": \"Carles Puyol retired last year\",\n\"3\": \"Carles Puyol is Former Barcelona centre back\",\n\"4\": \"Carles Puyol could now be in line for a return with New York City\",\n\"5\": \"Carles Puyol could now be in line for a return with Al-Sadd\",\n\"6\": \"Puyol is reported to be training\",\n\"7\": \"Puyol is ahead of a comeback from retirement\"}\n\nINPUT: {Summary}"},
+    {"name": "Atomic Fact Detection", "detail": "A prompt to determine whether an atomiccontent unit contains anylocation, temporal, posesive expressions, or quantities", "role_1": "System", "content_1":"You have been provided a statement. Does it include any location, temporal, possessive expressions, or quantities? Provide your response in JSON format, with a 'yes' or 'no' decision for each category, along with justifications.", "role_2": "User", "content_2":"Statement: {Atomic-Fact}"},
+    {
+        "name":"Hallucination Detection",
+        "detail":"A prompt to determine whether there exists hallucinated atomic content unit",
+        "role_1":"System",
+        "content_1":"You have been provided with a set of statements. Does the factual information within each statement accurately match the post? A statement is considered accurate if it does not introduce details that are unmentioned in the post, or contradicts the post's existing information. Provide your response in JSON format, with a 'yes' or 'no' decision for each statement in the set, along with justifications.",
+        "role_2":"User",
+        "content_2":"{\"1\":\"Dante de Blasio is 17 years old.\",\n\"2\": \"Dante de Blasio needs to make a decision.\",\n\"3\": \"Dante de Blasio needs to make a decision by the end of the month.\",\n\"4\": \"Dante de Blasio's father has six-figure salary.\",\n\"5\": \"Dante's father has said his family will struggle to meet cost to send Dante to Ivy League school.\"}\n\nReddit Post:\nDante de Blasio, the son of New York City Mayor Bill de Blasio has been accepted into Yale and Brown Universities. The 17-year-old is a senior at Brooklyn Technical High School and will make his decision by the end of the month. Despite his six figure salary as mayor de Blasio is expected to turn to financial aid to help pay for his son's education. \n\nOUTPUT:\n{\"1\":{\"decision\":\"yes\"},\n\"2\": {\"decision\":\"yes\"},\n\"3\": {\"decision\":\"yes\"},\n\"4\": {\"decision\":\"yes\"},\n\"5\": {\"decision\":\"no\"}}\n\nINPUT: {List-of-Atomic-Facts\\} \nReddit Post: {Post}"
+    },
+    {
+        "name":"Off-Focus Detection",
+        "detail":"A prompt to check whether heck if the atomic content unit is related to the main focus of the original text",
+        "role_1":"System",
+        "content_1":"You have been provided a statement. Can you determine if it is related to the main focus of the post? The main focus of a post is the core subject around which all the content revolves. Format your response in JSON, containing a 'yes' or 'no' decision, along with justifications.",
+        "role_2":"User",
+        "content_2":"Statement: {Atomic-Fact}\nReddit Post: {Post}"
+    },
+    {
+        "name":"Fluency",
+        "detail":"A prompt to assess whether a given summary is fluent",
+        "role_1":"System",
+        "content_1":"Is the summary easy to understand and free of grammatical errors? Format your response in JSON, containing a 'yes' or 'no' decision, along with justifications.",
+        "role_2":"User",
+        "content_2":"Summary: {Summary}"
+    },
+    {
+        "name":"Clarity",
+        "detail":"A prompt to assess whether a given summary is clear",
+        "role_1":"System",
+        "content_1":"Does the summary express ideas clearly and unambiguously? Format your response in JSON, containing a 'yes' or 'no' decision, along with justifications.",
+        "role_2":"User",
+        "content_2":"Summary: {Summary}"
+    },
+    {
+        "name":"Style-Alignment",
+        "detail":"A prompt to assess whether a given summary is aligned with the style of the original post",
+        "role_1":"System",
+        "content_1":"Is the summary written in the same style as the original post? Potential styles include formal, casual, humorous, sarcastic, narrative, instructional, diary-like, and more. Format your response in JSON, containing a 'yes' or 'no' decision, along with justifications.",
+        "role_2":"User",
+        "content_2":"Summary: {Summary}\nReddit Post: {Post}"
+    },
+    {
+        "name":"Intent-Alignment",
+        "detail":"A prompt to assess whether a given summary is aligned with the intent of the original post",
+        "role_1":"System",
+        "content_1":"Does the summary serve the same purpose as the original post? Potential purposes include soliciting advice, sharing information, asking questions, providing support, seeking recommendations, and more. Format your response in JSON, containing a 'yes' or 'no' decision, along with justifications.",
+        "role_2":"User",
+        "content_2":"Summary: {Summary}\nReddit Post: {Post}"
+    }
+
+]

@@ -1,0 +1,195 @@
+[
+    {
+        "title": "My [24 M] girlfriend's [21 F] jealousy is getting out of hand.",
+        "content": "Long story short, I moved in with my girlfriend back in July. Since then, my girlfriend has slowly been limiting my contact with certain friends (mainly girls). Some of these people are just acquaintances, but a few of them are incredibly close friends. \n\nRecently I tried to get in contact with one of my female friends, let's call her June. June's brother is in a rehab program, and I wanted to see how he was doing. While trying to get up with her, I discovered that June had been blocked on my facebook account. Not only that, but her number had been deleted from my phone.\n\nA little more investigating showed that not only was June removed from everything, but about a dozen other people (that I know of) were completely gone from my cell phone and all social media. \n\nFrankly I was overcome with rage at the fact that she would try to be so controlling. I think this might be the last straw, and I'm seriously considering ending the relationship. I don't want to do anything drastic just because I'm angry, though. I'd like to keep a cool head.\n\nWhat do you think I should do in this situation?",
+        "passage1": {
+            "title": "title",
+            "content": " My [24 M] girlfriend's [21 F] jealousy is getting out of hand.",
+            "label": [
+                "len-tk-short",
+                "len-ch-short",
+                "style-aligned",
+                "intent-aligned",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-none",
+                "off-topic-none",
+                "src-cov-low",
+                "consec-cov-high",
+                "novel-words-few",
+                "complex-words-many"
+            ]
+        },
+        "passage2": {
+            "title": "ref (Preferred)",
+            "content": " My girlfriend went behind my back to try and control who I'm friends with. Should I break it off or give her another chance?",
+            "label": [
+                "len-tk-short",
+                "len-ch-medium",
+                "intent-aligned",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-one",
+                "hallucination-mixed-types",
+                "off-topic-none",
+                "src-cov-minimal",
+                "consec-cov-minimal",
+                "novel-words-most",
+                "complex-words-some"
+            ]
+        }
+    },
+    {
+        "title": "An unwanted gift from my SO [20F] - I need so[M20]e help",
+        "content": "Okay, so I feel so bad about this. \nIn November me and my SO will celebrate our 1 year anniversary, and of course we said that we'll gift one another \"nothing\" and of course we both knew it's a lie.\n\nSo, I just discovered what her \"nothing\" is, and this is why I feel bad. She know's i like computers and when I first built my PC I didn't buy any graphics card, and I of course did tell her that (several times..anytime we (mostly me) talked about computers..I'm an idiot) and now she wants to buy me a new graphics card. The thing is I'm an university student and the last time I played video games was like 2 months ago, and I have little to no time to go to the beach and enjoy while it still lasts, not to mention playing on PC. \n\nSo all this wouldn't be a problem if I didn't discovered it, but the thing is expensive and I'd rather go in some city in Europe we didn't visit. Since it's expensive she's asked help from two of my friends (both students; but one too kind to refuse to help) and my parents (they have their financial problems of their own). Knowing her, even if no one would help her, she's going to buy it just to make me happy, but I don't need it right now and as I said earlier there are so many other things that I'd spend money on. \n\nWhat I did is to tell her that I want to take her somewhere South (in Europe) and, subtly, told her that any dime will matter and that I wouldn't want her to spend money on something materialistic, but rather invest it in our trip. She agreed, but! she also said that she put heart in choosing her \"nothing\" and that she's willing in doing both. I also sought the help of a friend (one she contacted and said he's broke) and told him to call her and subtly tell her that it'll be better to go somewhere to spend time together. \n\nPlease, help me understand why won't she give up and maybe how to convince her to chose something else.\n\nThank you!",
+        "passage1": {
+            "title": "sup4_3b_t0.7",
+            "content": " My SO [20F] will buy me a [20] graphics card for our anniversary, since she knows i'm a university student.",
+            "label": [
+                "len-tk-short",
+                "len-ch-short",
+                "fluency",
+                "hallucination-fact-none",
+                "off-topic-none",
+                "src-cov-minimal",
+                "consec-cov-minimal",
+                "novel-words-some",
+                "complex-words-many"
+            ]
+        },
+        "passage2": {
+            "title": "sup4_t0.7 (Preferred)",
+            "content": " Found out SO's \"nothing\" is a new graphic card, and she wants to make me happy by buying it for me. Need help convincing her to choose something else.",
+            "label": [
+                "len-tk-medium",
+                "len-ch-long",
+                "style-aligned",
+                "intent-aligned",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-none",
+                "off-topic-none",
+                "src-cov-minimal",
+                "consec-cov-low",
+                "novel-words-many",
+                "complex-words-some"
+            ]
+        }
+    },
+    {
+        "title": "My employer processed my time-sheets late because of their Christmas break. Now I'm not getting payed for the hours that I worked for another two weeks. (Nebraska)",
+        "content": "Hello all, thanks in advance for any advice you may have.\n\nLet me preface this by letting you know that I am currently working an hourly security position for a state College in Nebraska. We are part time (30hrs/week), hand in our timestamps every Monday and are paid bi-weekly.\n\nChristmas break for employees at the college I work for was from 12-23-2014 to 1-5-2015. However, the Department I work in (Security) does not get any of this time off and I ended up working my regular hours and I filled out my time-stamp and turned it in on time. On Monday the 5th of January 2015 (when college employees returned), my manager turned in all of the timestamps from our department, and found out that the people in charge of payroll decided that they didn't have time to process all 6 of them and told us that we would have to wait until the 22nd of January to get paid. \n\nWhat exacerbates this is that before break my manager was informed that if all time-sheets were turned in on the first day back from break, that they would be processed and put on the payday for the 8th of January. \n\nSo, as a student already struggling to make ends meet and bills to pay, I'm sitting here getting half of what I should be getting payed on the 8th of January.\n\nI had a meeting with the lady who is charge of payroll, and over the course of the better part of an hour, all that I got from her was a \"Well, you guys are just going to have to wait until the 22nd, there's nothing I can do.\" \n\nWhat steps, if any, can I take here? I did everything right on my end, so I feel like there should be something that I can do. Thanks a ton!",
+        "passage1": {
+            "title": "sup3_ppo_rm1",
+            "content": " My employer processed my time-sheets late because of their Christmas break. Now I'm not getting payed for the hours that I worked for two weeks. What can I do to remedy this?",
+            "label": [
+                "len-tk-long",
+                "len-ch-xlong",
+                "style-aligned",
+                "intent-aligned",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-none",
+                "off-topic-none",
+                "src-cov-medium",
+                "consec-cov-high",
+                "novel-words-few",
+                "complex-words-few"
+            ]
+        },
+        "passage2": {
+            "title": "sup3 (Preferred)",
+            "content": " My employer processed my time-sheets late because of their Christmas break. Now I'm not getting payed for the hours that I worked for two more weeks.",
+            "label": [
+                "len-tk-medium",
+                "len-ch-long",
+                "style-aligned",
+                "intent-aligned",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-none",
+                "off-topic-none",
+                "src-cov-low",
+                "consec-cov-high",
+                "novel-words-few",
+                "complex-words-few"
+            ]
+        }
+    },
+    {
+        "title": "Am I [F25] being selfish for not wanting to leave my family to live near partner's [M26]?",
+        "content": "I've been in a long distance relationship for the last 5 years. We live over 250 miles away from each other, and have done since the beginning, apart from a few years when I was at uni, I lived a lot closer to my SO.\n\nAfter uni I moved back to my home town, riddled with guilt that I barely saw my family in 3 years, because I spent almost every weekend at my partners (which I feel extremely guilty about). We have always been ok with the distance, there are obviously times when it's harder than others.\n\nWe're now seeing less and less of each other and I'm really starting to struggle, I'm lucky if I get a whole weekend with him every month. He works 6 days a week, so him staying with me is almost out of the question, and I can't afford any more than I already pay on travel.\n\nWe have discussed getting a place together, but the issue of where to live becomes an issue. I have looked at properties in his area, and for a start I wouldn't be able to afford rent, never mind the increased cost of living. \n\nI told him tonight that I don't think I could live far from my family. My parents are older than his, and I worry about them not having any family near them as they get older. He, on the other hand has an extremely large extended family, all of which live within a 5 mile radius.\n\nAm I being selfish for now wanting to move near them? When I told my SO how I felt, his response was \"well, we have a problem\". He did however say that he would move up to me, but he still has courses he needs to complete with work.\n\nHe told me that I'm acting like a child and didn't understand the issue of me moving away because I would still see my parents every fortnight. Surely if travelling weren't an issue I would see my SO more often than that?!\n\nI'm feeling so conflicted, and feel selfish for not wanting to leave my parents. I love my SO, and I want to be with him, but we have hit this major fork in the road and I don't know what to do.",
+        "passage1": {
+            "title": "ref (Preferred)",
+            "content": " Relationship of 5 years. I'm conflicted as to whether I should abandon my family again to live 250 miles away with my SO, and near his family.",
+            "label": [
+                "len-tk-medium",
+                "len-ch-long",
+                "intent-aligned",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-two",
+                "hallucination-mixed-types",
+                "off-topic-none",
+                "src-cov-minimal",
+                "consec-cov-minimal",
+                "novel-words-some",
+                "complex-words-few"
+            ]
+        },
+        "passage2": {
+            "title": "sup4_t0.7",
+            "content": " life is hard in long distance relationship, am I being selfish for wanting to move near my SO's family?",
+            "label": [
+                "len-tk-short",
+                "len-ch-short",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-one",
+                "hallucination-mixed-types",
+                "off-topic-none",
+                "src-cov-minimal",
+                "consec-cov-minimal",
+                "novel-words-few",
+                "complex-words-some"
+            ]
+        }
+    },
+    {
+        "title": "I(F, 21) have roommate(F, 22) legal/police questions.",
+        "content": "So I (F, 21) recently moved out of my apartment and got a new one living by myself. I still pay rent at the old apartment and put a lock on my door because without it my roommate would take over my room and that isn't fair since I pay 450 for an apartment that I do not live in... So anyways I pay rent do not pay for internet and electric (obviously since I do not use it) Heat and water is included. **Now I was wondering** when I go over to the apartment to make sure my door is still locked, if I see that it is not (roommate does not have a key obviously), could I call the cops on her for breaking and entering? We are both on the lease. I'm pretty sure you guys are gonna say no, you can't but I just want to make sure. My room at the apartment is completely empty so she couldn't steal anything I just think it is entirely unfair for me to pay rent at an apartment when nothing of it is mine. You know what I mean? So what can I do if my door has been unlocked?? I am in New York by the way.",
+        "passage1": {
+            "title": "sup4_6b (Preferred)",
+            "content": " I pay rent for an apartment that I do not live in, roommate has a key, can I call the cops on her for breaking and entering?",
+            "label": [
+                "len-tk-short",
+                "len-ch-medium",
+                "fluency",
+                "unambiguous",
+                "hallucination-fact-one",
+                "hallucination-mixed-types",
+                "off-topic-none",
+                "src-cov-high",
+                "consec-cov-high",
+                "novel-words-few",
+                "complex-words-some"
+            ]
+        },
+        "passage2": {
+            "title": "pretrain_12b",
+            "content": " I(F, 21) have roommate(F, 22) legal/police questions.",
+            "label": [
+                "len-tk-short",
+                "len-ch-short",
+                "intent-aligned",
+                "fluency",
+                "hallucination-fact-none",
+                "off-topic-none",
+                "src-cov-minimal",
+                "consec-cov-high",
+                "novel-words-few",
+                "complex-words-most"
+            ]
+        }
+    }
+]

@@ -1,0 +1,4 @@
+[
+    {"name": "Entry 1", "detail": "This is entry 1", "code_snippet": "import tensorflow as tf"},
+    {"name": "Entry 2", "detail": "This is entry 2", "code_snippet": "import pytorch as pt"}  
+]
