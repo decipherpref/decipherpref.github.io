@@ -22,7 +22,7 @@ nav_order: 2
     3. We then represent the outcomes of these comparisons using a win-loss matrix $$ W: 𝑤_{𝑖,𝑗} (𝑖, 𝑗∈𝑀)$$
     4. The BTL model allows us to estimate the relative importance of these factors $ \(𝑝_{i})_{𝑖=1}^𝑀 $, which is iteratively updated (Eq. (1)) to maximize the data likelihood and then renormalized (Eq. (2))
     
-    $$ 𝑝_𝑖^′=𝑊_𝑖 (\sum_{𝑗≠𝑖} \frac{𝑤_𝑖𝑗+𝑤_𝑗𝑖}{𝑝_𝑖+𝑝_𝑗 })^{−1}  (1)  $$
+    $$ 𝑝_𝑖^′=𝑊_𝑖 (\sum_{𝑗≠𝑖} \frac{𝑤_{𝑖𝑗}+𝑤_{𝑗𝑖}}{𝑝_𝑖+𝑝_𝑗 })^{−1}  (1)  $$
   
     $$  𝑝_𝑖=\frac{𝑝_𝑖^′}{\sum_{𝑗=1}^𝑀 𝑝_𝑗^′}  (2)  $$
 
