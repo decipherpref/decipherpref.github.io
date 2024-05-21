@@ -21,6 +21,30 @@ Please cite the following paper in work:
 [Yebowen Hu](https://yebowenhu.github.io/), [Kaiqiang Song](https://github.com/KaiQiangSong), [Sangwoo Cho](https://sangwoo3.github.io/), [Xiaoyang Wang](https://www.linkedin.com/in/xiaoyang-wang-001/), [Hassan Foroosh](https://www.cs.ucf.edu/person/hassan-foroosh/), [Fei Liu](https://www.cs.emory.edu/~fliu40/)\
 Main conference of Empirical Methods in Natural Language Processing (EMNLP 2023), Singapore
 
+## Dataset available at Huggingface
+**Data Structure**
+```
+{
+  "doc_id": <str>,
+  "title": <str>,
+  "article": <str>, # source document
+  "winner_sum": {
+      "text": <str>,
+      "policy": <str>,
+      "annotation": <dict>, # GPT-4 annotation on proposed criterions
+      "preference_factors": <list> # List of final preference factors of each summary
+  }
+  "defeated_sum": {
+      "text": <str>,
+      "policy": <str>,
+      "annotation": <dict>,
+      "preference_factors": <list>
+  }
+}
+
+```
+
+
 ## Bibtex
 ```
 @misc{hu2023decipherpref,
